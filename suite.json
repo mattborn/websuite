@@ -1,0 +1,164 @@
+[
+  {
+    "category": "Marketing",
+    "description": "List all the things you want to see other people doing.",
+    "name": "Action Hackson",
+    "order": 0
+  },
+  {
+    "category": "Template",
+    "description": "A fully interactive web app preview.",
+    "name": "Applit",
+    "order": 3
+  },
+  {
+    "category": "Template",
+    "description": "Used for non-hero info product and hard sell.",
+    "name": "Billboard",
+    "order": 8
+  },
+  {
+    "category": "Template",
+    "description": "The greatest hits of branding accelerated with AI.",
+    "name": "Brandy",
+    "order": 0
+  },
+  {
+    "category": "Template",
+    "description": "Minimalist timeline animations for your website.",
+    "name": "Bullettime",
+    "order": 3
+  },
+  {
+    "category": "Template",
+    "description": "Dope ass color palettes for your website.",
+    "name": "Colorcade",
+    "order": 0
+  },
+  {
+    "category": "Marketing",
+    "description": "Generate structured content from a personalized context window.",
+    "name": "Copykit",
+    "order": 0
+  },
+  {
+    "category": "Template",
+    "description": "One box to rule them all, and in the dark mode bind them.",
+    "name": "Crazybox",
+    "order": 0
+  },
+  {
+    "category": "Content",
+    "description": "Frequently asked questions made stupid simple.",
+    "name": "Focker",
+    "order": 7
+  },
+  {
+    "category": "Content",
+    "description": "Dope ass footer templates for your website.",
+    "name": "Footiejams",
+    "order": 9
+  },
+  {
+    "category": "Content",
+    "description": "Dope ass hero headers with Open Graph previews for your website.",
+    "name": "Hiro",
+    "order": 1
+  },
+  {
+    "category": "Template",
+    "description": "AI-accelerated social media content strategy.",
+    "name": "Hypemain",
+    "order": 6
+  },
+  {
+    "category": "Marketing",
+    "description": "The public facing microservice for Subsurf.",
+    "name": "Lander",
+    "order": 1
+  },
+  {
+    "category": "Tool",
+    "description": "Dope ass SVG logo grids for your website.",
+    "name": "Logogrid",
+    "order": 2
+  },
+  {
+    "category": "Template",
+    "description": "Dope ass cards for your website.",
+    "name": "Macardi",
+    "order": 4
+  },
+  {
+    "category": "Template",
+    "description": "First there was markup, then markdown, and now, Markless.",
+    "name": "Markless",
+    "order": 0
+  },
+  {
+    "category": "Tool",
+    "description": "Quick start & two-way sync for HTML & CSS selectors.",
+    "name": "Markonce",
+    "order": 0
+  },
+  {
+    "category": "Template",
+    "description": "The lightest UI kit on the planet.",
+    "name": "Minterface",
+    "order": 0
+  },
+  {
+    "category": "Template",
+    "description": "AI-accelerated motion graphics.",
+    "name": "Mogra",
+    "order": 3
+  },
+  {
+    "category": "App",
+    "description": "A little bit of everything, and it’s still nothing.",
+    "name": "Nothing",
+    "order": 12
+  },
+  {
+    "category": "Marketing",
+    "description": "AI-accelerated persona development. Know your audience.",
+    "name": "Person A",
+    "order": 0
+  },
+  {
+    "category": "Marketing",
+    "description": "Let’s iterate on your 12-week product roadmap.",
+    "name": "Playground",
+    "order": 0
+  },
+  {
+    "category": "Template",
+    "description": "Copy pasta from a one page library of static components.",
+    "name": "Samesies",
+    "order": 11
+  },
+  {
+    "category": "Template",
+    "description": "Dope ass plans and pricing for your website.",
+    "name": "Subplanet",
+    "order": 5
+  },
+  {
+    "category": "Assembly",
+    "description": "The stitcher between all the microservices for a single lander.",
+    "name": "Subsurf",
+    "order": 10
+  },
+  {
+    "category": "Template",
+    "description": "The most common 13 sections on a marketing site.",
+    "name": "Thirteen",
+    "order": 10
+  },
+  {
+    "category": "Tool",
+    "description": "Super fast project branding with JSON font settings.",
+    "name": "Typesets",
+    "order": 0
+  }
+]
