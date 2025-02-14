@@ -75,7 +75,7 @@
     "category": "Marketing",
     "description": "The public facing microservice for Subsurf.",
     "name": "Lander",
-    "order": 1
+    "order": 0
   },
   {
     "category": "Tool",
@@ -133,6 +133,12 @@
   },
   {
     "category": "Template",
+    "description": "Dope ass recreations of some good websites.",
+    "name": "Repro",
+    "order": 0
+  },
+  {
+    "category": "Template",
     "description": "Copy pasta from a one page library of static components.",
     "name": "Samesies",
     "order": 11
@@ -159,6 +165,12 @@
     "category": "Tool",
     "description": "Super fast project branding with JSON font settings.",
     "name": "Typesets",
+    "order": 0
+  },
+  {
+    "category": "Template",
+    "description": "The first, minimalist HTML & CSS template.",
+    "name": "Vanilla",
     "order": 0
   }
 ]
