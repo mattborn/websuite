@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap');
+
+/* colorcade */
+
+:root {
+  color-scheme: light dark;
+  --radius-6: 6px;
+  --text-line-height: 20px;
+}
+
+/* base */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 100%/1 system-ui;
+}
+
+/* type */
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(3rem, 10vw, 8rem);
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+h2 {
+  font-size: clamp(3rem, 10vw, 8rem);
+  letter-spacing: -0.05em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* components */
+
+.button-big {
+  background: white;
+  border-radius: var(--radius-6);
+  cursor: pointer;
+  filter: unset !important;
+  line-height: var(--text-line-height);
+  padding: 14px 20px;
+}
+
+.browser {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+.bar-address {
+  align-items: center;
+  backdrop-filter: blur(8px);
+  background: #fff3;
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+}
+.viewport {
+  aspect-ratio: 16 / 9;
+  background: white;
+}
+
+.copy-big {
+  font-size: 20px;
+}
+
+/* utilities */
+
+[data-bg] {
+  background: center/cover;
+}
+
+/* layout */
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#header {
+  padding: clamp(1.5rem, 5vw, 4rem);
+}
+
+.inset {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 0 auto;
+  /* max-width: 80rem; */
+  padding: 6rem clamp(1.5rem, 5vw, 4rem);
+}
+
+/* 20-hero */
+.minterface #header .inset {
+}
+
+/* 21-humans */
+.humans {
+  background: #0001;
+}
+.humans #header {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+}
+.humans #header .inset {
+  align-items: center;
+  border-radius: 1.5rem;
+  border: 8px solid #000;
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.humans #header .inset:before {
+  background: #fed3;
+  content: '';
+  inset: 0;
+  position: absolute;
+}
+.humans #header .inset * {
+  filter: invert(1);
+  /* mix-blend-mode: difference; */
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+/* 22-humans */
+.whimsical {
+  background: #0001;
+}
+.whimsical #header {
+  display: flex;
+}
+.whimsical #header .inset {
+  align-items: center;
+  border-radius: 2rem;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+}
+.whimsical h1,
+.whimsical #header .inset p {
+  filter: invert(1);
+}
+.whimsical h1 {
+  font-size: 3rem;
+  letter-spacing: -0.02em;
+}
+
+/* 23-moona */
+.moona {
+  font-family: 'DM Sans', system-ui, sans-serif;
+}
+.moona em {
+  font: italic 1em Georgia, serif;
+}
+.moona #header {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+}
+.moona #header .inset {
+  align-items: center;
+  border-radius: 2rem;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  flex: 1;
+}
+.moona #header .inset {
+  align-items: center;
+  border-radius: 2rem;
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.moona #header video {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.moona .brandmark,
+.moona h1,
+.moona #header .inset p {
+  filter: invert(1);
+}
+
+.moona .brandmark {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  gap: 8px;
+  left: 0;
+  letter-spacing: -0.04em;
+  padding: 1.5rem;
+  position: absolute;
+  top: 0;
+}
+.moona .brandmark svg {
+  fill: currentColor;
+  height: 2rem;
+  width: 2rem;
+}
+
+.moona .badge {
+  backdrop-filter: blur(8px);
+  background: #fff1;
+  border-radius: var(--text-line-height);
+  color: #fff;
+  font-size: 14px;
+  line-height: var(--text-line-height);
+  padding: 12px 1rem;
+}
+.moona h1 em {
+  display: block;
+}
+
+/* 24-founder */
+.founder #header .inset {
+}
+
+/* 25-betch */
+.betch #header .inset {
+}
