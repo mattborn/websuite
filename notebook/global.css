@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+/* colorcade */
+
+:root {
+  color-scheme: light dark;
+  --radius-6: 6px;
+  --text-line-height: 20px;
+}
+
+/* base */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 100%/1 'DM Sans', system-ui;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+
+/* type */
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(3rem, 10vw, 8rem);
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+h2 {
+  font-size: clamp(3rem, 10vw, 8rem);
+  letter-spacing: -0.05em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* components */
+
+.wordmark {
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+.button-big {
+  background: white;
+  border-radius: var(--radius-6);
+  cursor: pointer;
+  filter: unset !important;
+  line-height: var(--text-line-height);
+  padding: 14px 20px;
+}
+
+.copy-big {
+  font-size: 20px;
+}
+
+/* components — browser */
+.browser {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+.bar-address {
+  align-items: center;
+  backdrop-filter: blur(8px);
+  background: #fff3;
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+}
+.viewport {
+  aspect-ratio: 16 / 9;
+  background: white;
+}
+
+/* utilities */
+
+[data-bg] {
+  background: center/cover;
+}

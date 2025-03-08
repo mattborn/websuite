@@ -1,11 +1,43 @@
-[
-  "00-root.html",
-  "01-blank.html",
-  "10-bars.html",
-  "20-hero.html",
-  "21-humans.html",
-  "22-whimsical.html",
-  "23-moona.html",
-  "24-founder.html",
-  "25-betch.html"
-]
+{
+  "components": {},
+  "components/media": {},
+  "components/media/browser": {},
+  "components/media/default": {},
+  "components/media/video": {},
+  "sections": {},
+  "sections/bars": {},
+  "sections/bars/default": {},
+  "sections/default": {},
+  "sections/default/default": {},
+  "sections/footer": {},
+  "sections/footer/default": {},
+  "sections/hero": {},
+  "sections/hero/betch": {
+    "title": "Hero — Betch"
+  },
+  "sections/hero/blank": {},
+  "sections/hero/default": {
+    "title": "Hero — Save the world."
+  },
+  "sections/hero/founder": {
+    "title": "Hero — Founder Mode"
+  },
+  "sections/hero/humans": {
+    "title": "Hero — humans.design"
+  },
+  "sections/hero/moona": {
+    "title": "Hero — moona.design"
+  },
+  "sections/hero/whimsical": {
+    "title": "Hero — whimsical.com"
+  },
+  "sections/logos": {},
+  "sections/logos/default": {},
+  "sections/pricing": {},
+  "sections/pricing/default": {},
+  "utilities": {},
+  "utilities/copykit": {},
+  "utilities/copykit/default": {},
+  "utilities/transitions": {},
+  "utilities/transitions/default": {}
+}

@@ -1,0 +1,7 @@
+body {
+  background: linear-gradient(0deg, #0cf 0%, #f35 100%);
+  min-height: 100vh;
+  padding: clamp(1rem, 4vw, 4rem);
+}
+
+/* the styles for this component are included in global.css */
