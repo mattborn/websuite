@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+  padding: clamp(1rem, 4vw, 4rem);
+}
+
+.media {
+  aspect-ratio: 16 / 9;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

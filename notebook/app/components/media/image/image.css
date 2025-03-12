@@ -7,13 +7,9 @@ body {
   aspect-ratio: 16 / 9;
   border-radius: 1rem;
   overflow: hidden;
-  position: relative;
 }
 
-.media::before {
-  background: #0001;
-  content: '';
-  inset: 0;
-  position: absolute;
-  z-index: 1;
+[data-bg] {
+  height: 100%;
+  width: 100%;
 }

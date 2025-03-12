@@ -39,6 +39,7 @@ section {
 
 iframe {
   border: 0;
-  height: 50vh;
+  display: block;
+  min-height: 62vh; /* golden ratio */
   width: 100%;
 }

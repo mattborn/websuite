@@ -3,6 +3,7 @@
   "components/media": {},
   "components/media/browser": {},
   "components/media/default": {},
+  "components/media/image": {},
   "components/media/video": {},
   "sections": {},
   "sections/bars": {},
@@ -12,10 +13,10 @@
   "sections/footer": {},
   "sections/footer/default": {},
   "sections/hero": {},
+  "sections/hero/arc": {},
   "sections/hero/betch": {
     "title": "Hero — Betch"
   },
-  "sections/hero/blank": {},
   "sections/hero/default": {
     "title": "Hero — Save the world."
   },
@@ -28,6 +29,7 @@
   "sections/hero/moona": {
     "title": "Hero — moona.design"
   },
+  "sections/hero/untitled": {},
   "sections/hero/whimsical": {
     "title": "Hero — whimsical.com"
   },

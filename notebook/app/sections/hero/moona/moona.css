@@ -1,7 +1,7 @@
 /* components */
 
 .button-big {
-  background: white;
+  background: var(--color-100);
   border-radius: var(--radius-6);
   cursor: pointer;
   filter: unset !important;
@@ -93,7 +93,7 @@ h1,
   backdrop-filter: blur(8px);
   background: #fff1;
   border-radius: var(--text-line-height);
-  color: #fff;
+  color: var(--color-100);
   font-size: 14px;
   line-height: var(--text-line-height);
   padding: 12px 1rem;

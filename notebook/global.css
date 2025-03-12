@@ -4,6 +4,11 @@
 
 :root {
   color-scheme: light dark;
+  --color-000: black;
+  --color-100: white;
+  --color-canvas: Canvas;
+  --color-canvas-text: CanvasText;
+  --max-width-page: 80rem;
   --radius-6: 6px;
   --text-line-height: 20px;
 }
@@ -18,6 +23,8 @@ body {
   font: 100%/1 'DM Sans', system-ui;
   letter-spacing: 0.01em;
   margin: 0;
+  overflow-x: hidden;
+  text-rendering: geometricPrecision;
 }
 
 /* type */
@@ -55,17 +62,20 @@ a {
   letter-spacing: -0.03em;
 }
 
+.button,
 .button-big {
-  background: white;
-  border-radius: var(--radius-6);
   cursor: pointer;
-  filter: unset !important;
   line-height: var(--text-line-height);
-  padding: 14px 20px;
+}
+
+.button-big {
+  border: 1px solid currentColor;
+  border-radius: var(--radius-6);
+  padding: 14px var(--text-line-height);
 }
 
 .copy-big {
-  font-size: 20px;
+  font-size: var(--text-line-height);
 }
 
 /* components — browser */
@@ -86,7 +96,7 @@ a {
 }
 .viewport {
   aspect-ratio: 16 / 9;
-  background: white;
+  background: var(--color-100);
 }
 
 /* utilities */
